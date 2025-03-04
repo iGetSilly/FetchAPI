@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.loading {
+  display: none;
+  text-align: center;
+  margin: 20px 0;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+.user-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.user-card:hover {
+  background-color: #f5f5f5;
+}
+.user-details {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-top: 10px;
+  display: none;
+}
+.posts-container {
+  margin-top: 15px;
+}
+.post {
+  border-left: 3px solid #2196F3;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
